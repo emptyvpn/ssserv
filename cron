@@ -11,6 +11,6 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 #
 # m h  dom mon dow   command
-0 1 * * * /bin/bash /home/admin/valid.sh
-0 4 * * * /bin/bash /home/admin/ssrestart.sh
-@weekly /bin/bash /home/admin/cfip.sh
+0 1 * * * /bin/bash /usr/local/bin/valid.sh
+0 4 * * * /bin/bash /usr/local/bin/ssrestart.sh
+@weekly /bin/bash /usr/local/bin/cfip.sh
